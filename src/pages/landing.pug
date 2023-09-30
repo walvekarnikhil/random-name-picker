@@ -1,6 +1,8 @@
 include ../mixins/icons
 
 .main
+  .logo
+    img(src="~@images/app2.png", alt="Rezoomex", width=200)
   .control-group
     button#fullscreen-button.icon-button.icon-button--small
       +svg-icon.red.big(svg-icon-name='fullscreen')
@@ -24,6 +26,8 @@ include ../mixins/icons
         img(src="~@images/sunburst.svg" alt="sunburst")
 
     button#draw-button.solid-button Draw
+    .bot
+      img(src="~@images/bot.png", alt="Rezoomex", height=200)
 
   #settings.settings
     #settings-panel.settings__panel
